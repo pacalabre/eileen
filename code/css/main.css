@@ -1,1 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC|Roboto:900');
+
+ul li {
+	list-style: none;
+}
+
+
+.logo-icon {
+	height: 50px;
+	width: 50px;
+	margin: 20px;
+}
+
+.nav-ul {
+	float: right;
+	margin-right: 20px;
+}
+
+.nav-ul-li {
+	float: right;
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'IM Fell DW Pica', 'serif';
+}
