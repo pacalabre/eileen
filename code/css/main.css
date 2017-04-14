@@ -4,16 +4,29 @@ ul li {
 	list-style: none;
 }
 
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: white;
+}
+
+main {
+	background-color: black;
+	height: 200px;
+	margin-top: 85px;
+}
 
 .logo-icon {
 	height: 50px;
 	width: 50px;
-	margin: 20px;
+	margin: 20px 40px;
 }
 
 .nav-ul {
 	float: right;
-	margin-right: 20px;
+	margin-right: 40px;
+	margin-top: 15px;
 }
 
 .nav-ul-li {
