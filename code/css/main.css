@@ -47,6 +47,10 @@ h6 {
 	font-size: 15px ;
 }
 
+.highlight {
+	color: #e74c3c ;
+}
+
 
 /* Nav */
 
@@ -105,7 +109,13 @@ h6 {
 }
 
 .main-p {
-	margin: 0px 7% 40px 7%;
+	margin: 0px 7% 60px 7%;
+}
+
+.main-projects {
+	background-image: url('../assets/images/brick.png');
+	background-attachment: fixed;
+	height: 400px;
 }
 /* Media Queries */
 
