@@ -30,11 +30,6 @@ a .nav-ul-li {
 	margin-top: 30px;
 }
 
-/*.navbar-brand {
-	margin-left: 20px;
-	margin-top: 3px;
-}*/
-
 .logo-icon {
 	height: 50px;
 	width: 50px;
@@ -47,7 +42,8 @@ a .nav-ul-li {
 }
 
 .nav-ul-li {
-	float: right;
+	text-align: center;
+	display: block;
 	padding: 10px;
 	font-size: 25px;
 	font-family: 'IM Fell DW Pica', 'serif';
@@ -63,4 +59,14 @@ main {
 .hero-img {
 	background-image: url('../assets/images/eileen-stand-in.jpg');
 	height: 200px;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 768px) {
+
+	.nav-ul-li {
+		text-align: left;
+		display: inline-block;
+	}
 }
