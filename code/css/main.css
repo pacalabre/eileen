@@ -11,22 +11,39 @@ nav {
 	background-color: white;
 }
 
-main {
-	background-color: black;
-	height: 200px;
-	margin-top: 85px;
+a .nav-ul-li {
+	color: black;
 }
+
+
+/* Nav */
+
+/* Override Bootstrap Nav Styles */
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    height: 85px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	background-color: white;
+	margin-top: 30px;
+}
+
+/*.navbar-brand {
+	margin-left: 20px;
+	margin-top: 3px;
+}*/
 
 .logo-icon {
 	height: 50px;
 	width: 50px;
-	margin: 20px 40px;
+	margin-left: 20px;
 }
 
 .nav-ul {
-	float: right;
 	margin-right: 40px;
-	margin-top: 15px;
+	margin-top: -15px;
 }
 
 .nav-ul-li {
@@ -34,4 +51,16 @@ main {
 	padding: 10px;
 	font-size: 25px;
 	font-family: 'IM Fell DW Pica', 'serif';
+}
+
+/* Temp Code */
+main {
+	background-color: black;
+	height: 200px;
+	margin-top: 85px;
+}
+
+.hero-img {
+	background-image: url('../assets/images/eileen-stand-in.jpg');
+	height: 200px;
 }
