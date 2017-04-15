@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 	display: inline-block;
 	border-bottom: #e74c3c solid 10px;
 	text-align: center;
-	margin: 40px 0px;
+	margin: 40px auto 40px auto;
 }
 
 h1 {
@@ -99,7 +99,7 @@ h6 {
 
 /* Intro Section */
 
-.main-intro {
+.main-intro, .main-projects {
 	text-align: center;
 }
 
@@ -115,7 +115,11 @@ h6 {
 .main-projects {
 	background-image: url('../assets/images/brick.png');
 	background-attachment: fixed;
-	height: 400px;
+	height: 800px;
+}
+
+.project-img-section {
+	margin-top: 15px;
 }
 /* Media Queries */
 
