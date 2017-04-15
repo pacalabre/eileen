@@ -27,6 +27,9 @@ a .nav-ul-li {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	background-color: white;
+}
+
+.navbar-default .navbar-form{
 	margin-top: 30px;
 }
 
@@ -38,7 +41,6 @@ a .nav-ul-li {
 
 .nav-ul {
 	margin-right: 40px;
-	margin-top: -15px;
 }
 
 .nav-ul-li {
@@ -47,6 +49,10 @@ a .nav-ul-li {
 	padding: 10px;
 	font-size: 25px;
 	font-family: 'IM Fell DW Pica', 'serif';
+}
+
+.navbar-toggle {
+	margin: 25px 30px;
 }
 
 /* Temp Code */
@@ -68,5 +74,10 @@ main {
 	.nav-ul-li {
 		text-align: left;
 		display: inline-block;
+	}
+
+	.nav-ul {
+
+		margin-top: 13px;
 	}
 }
