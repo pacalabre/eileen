@@ -70,8 +70,9 @@ h6 {
 /* Override Bootstrap Nav Styles */
 .navbar-default {
     background-color: #fff;
-    border-color: #fff;
+    border-color: #e7e7e7;
     height: 85px;
+
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -155,11 +156,16 @@ h6 {
 }
 
 .footer-contact-info-ul {
-    position: absolute;
-    left: 3%;
+    position: relative;
+    margin-left: 20px;
     margin-top: 120px;
     font-family: 'IM Fell DW Pica', 'serif';
     font-size: 20px;
+}
+
+.footer-social-links-ul {
+	position: relative;
+	margin-left: 10px;
 }
 
 .footer-social-links-li {
