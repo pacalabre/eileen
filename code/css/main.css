@@ -128,7 +128,7 @@ h6 {
 .main-projects {
 	background-image: url('../assets/images/brick.png');
 	background-attachment: fixed;
-	height: 100%;
+	height: 110%;
 }
 
 .project-img-section {
@@ -138,6 +138,43 @@ h6 {
 .project-img-section-img {
  	margin-bottom: 30px;
 }
+
+/* Footer */
+
+.footer {
+	/*background-image: url('../assets/images/brick.png');*/
+	background-attachment: fixed;
+	margin-top: 0px;
+}
+
+.footer-social-links {
+	position: relative;
+}
+
+.footer-contact-info {
+
+}
+
+.footer-social-links-ul {
+	float: right;
+	position: absolute;
+    top: 50%;
+    right: 45%;
+}
+
+.footer-social-links-li {
+	float: left;
+}
+
+.footer-social-links-li a{
+	color: #111111;
+	padding-right: 20px;
+}
+
+.nav-ul-social-h4 {
+	border-bottom: none;
+}
+
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
