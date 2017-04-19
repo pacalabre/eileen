@@ -47,6 +47,19 @@ h6 {
 	font-size: 15px ;
 }
 
+/*Unstyle a Bootstrap Issue */
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
 .highlight {
 	color: #e74c3c ;
 }
