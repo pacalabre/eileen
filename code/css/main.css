@@ -61,7 +61,7 @@ h6 {
 
 
 .highlight {
-	color: #e74c3c ;
+	color: #e74c3c;
 }
 
 
@@ -116,9 +116,12 @@ h6 {
 	text-align: center;
 }
 
-.main-intro-h2 {
+.main-intro-h4 {
 	margin-left: auto;
 	margin-right: auto;
+	border: none;
+	font-family: 'IM Fell DW Pica', 'serif';
+	color: #e74c3c;
 }
 
 .main-p {
@@ -128,7 +131,7 @@ h6 {
 .main-projects {
 	background-image: url('../assets/images/brick.png');
 	background-attachment: fixed;
-	height: 110%;
+	padding-bottom: 80px;
 }
 
 .project-img-section {
@@ -152,21 +155,11 @@ h6 {
 }
 
 .footer-contact-info-ul {
-	position: absolute;
-    top: 50%;
-    left: 25%;
+    position: absolute;
+    left: 3%;
     margin-top: 120px;
-    margin-bottom: 120px;
     font-family: 'IM Fell DW Pica', 'serif';
     font-size: 20px;
-}
-
-.footer-social-links-ul {
-	float: right;
-	position: absolute;
-    top: 50%;
-    right: 25%;
-    margin-top: 100px;
 }
 
 .footer-social-links-li {
@@ -195,4 +188,23 @@ h6 {
 
 		margin-top: 13px;
 	}
+}
+
+@media only screen and (min-width: 901px) {
+	.footer-contact-info-ul {
+		position: absolute;
+	    top: 50%;
+	    left: 17%;
+	    margin-top: 120px;
+	    margin-bottom: 120px;
+	}
+
+	.footer-social-links-ul {
+		float: right;
+		position: absolute;
+	    top: 50%;
+	    right: 20%;
+	    margin-top: 100px;
+	}
+
 }
