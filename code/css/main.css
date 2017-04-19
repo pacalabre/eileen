@@ -151,15 +151,22 @@ h6 {
 	position: relative;
 }
 
-.footer-contact-info {
-
+.footer-contact-info-ul {
+	position: absolute;
+    top: 50%;
+    left: 25%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-family: 'IM Fell DW Pica', 'serif';
+    font-size: 20px;
 }
 
 .footer-social-links-ul {
 	float: right;
 	position: absolute;
     top: 50%;
-    right: 45%;
+    right: 25%;
+    margin-top: 100px;
 }
 
 .footer-social-links-li {
