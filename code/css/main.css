@@ -211,6 +211,7 @@ a:hover {
 /*    padding: 10px;*/
     background: white;
     transition: 1s;
+    transform: scale(1.03);
 }
 
 .project-shadow img {
