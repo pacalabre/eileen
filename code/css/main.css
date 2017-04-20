@@ -181,6 +181,19 @@ h6 {
 	border-bottom: none;
 }
 
+/* Hover States */
+
+.nav-ul-li:hover, .nav-ul-social-h4:hover  {
+	color: #e74c3c;
+	transition: .5s;
+}
+
+.nav-ul-li a:hover, .nav-ul-social-h4:hover {
+	text-decoration: none;
+	list-style: none;
+}
+
+
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
