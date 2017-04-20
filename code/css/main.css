@@ -183,14 +183,13 @@ h6 {
 
 /* Hover States */
 
+a:hover {
+	text-decoration: none;
+}
+
 .nav-ul-li:hover, .nav-ul-social-h4:hover  {
 	color: #e74c3c;
 	transition: .5s;
-}
-
-.nav-ul-li a:hover, .nav-ul-social-h4:hover {
-	text-decoration: none;
-	list-style: none;
 }
 
 
