@@ -54,6 +54,10 @@ h6 {
 	font-size: 15px ;
 }
 
+p {	
+	font-family: 'IM Fell DW Pica', 'serif';
+}
+
 /*Unstyle a Bootstrap Issue */
 
 .row {
@@ -114,8 +118,25 @@ h6 {
 
 .hero-img {
 	background-image: url('../assets/images/eileen-stand-in.jpg');
-	height: 500px;
+	height: 100vh;
 	background-size: cover;
+}
+
+.section-hero-text {
+	float: right;
+	position: absolute;
+	top: 30%;
+	right: 10%;
+}
+
+.hero-h1 {
+	font-size: 50px;
+}
+
+.hero-text-p {
+	font-size: 30px;
+    text-align: center;
+    margin-top: -35px;
 }
 
 /* Intro Section */
@@ -152,7 +173,7 @@ h6 {
 }
 
 .project-img-section-img {
- 	margin-bottom: 30px;
+ 	margin-bottom: 90px;
  	padding-left:0px;
     padding-right: 0px;
 }
@@ -274,5 +295,19 @@ a:hover {
 	    right: 20%;
 	    margin-top: 100px;
 	}
+
+}
+
+@media only screen and (min-width: 1025px) {
+	.main-intro-h3 {
+		font-size: 55px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.main-p {
+		font-size: 18px;
+		margin-bottom: 70px;
+}
 
 }
