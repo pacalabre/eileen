@@ -54,8 +54,26 @@ h6 {
 	font-size: 15px ;
 }
 
-p {	
+p, label {	
 	font-family: 'IM Fell DW Pica', 'serif';
+}
+
+label {
+	display: block;
+	text-align: left;
+	color: white;
+	padding-top: 8px;
+	font-size: 17px;
+}
+
+input {
+	width: 100%;
+	height: 35px;
+}
+
+textarea {
+	height: 180px;
+	width: 100%;
 }
 
 /*Unstyle a Bootstrap Issue */
@@ -125,7 +143,7 @@ p {
 .section-hero-text {
 	float: right;
 	position: absolute;
-	top: 30%;
+	top: 32%;
 	right: 10%;
 }
 
@@ -141,7 +159,7 @@ p {
 
 /* Intro Section */
 
-.main-intro, .main-projects {
+.main-intro, .main-section {
 	text-align: center;
 }
 
@@ -157,7 +175,7 @@ p {
 	margin: 0px 7% 60px 7%;
 }
 
-.main-projects {
+.main-section {
 	background-image: url('../assets/images/brick.png');
 	background-attachment: fixed;
 	padding-bottom: 80px;
@@ -174,14 +192,39 @@ p {
 
 .project-img-section-img {
  	margin-bottom: 90px;
- 	padding-left:0px;
+ 	padding-left: 0px;
     padding-right: 0px;
+}
+
+/* Contact Section */
+
+.section-contact {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	background-color: #232323;
+	background-image: url('../assets/images/black_paper.png');
+}
+
+.contact-h2 {
+	color: white;
+	border-bottom: none;
+	margin-bottom: 20px;
+}
+
+.submit-btn {
+	background-color: #e74c3c;
+	margin: 40px auto;
+	color: white;
+	font-family: 'IM Fell DW Pica', 'serif';
+	font-size: 23px;
+	border: none;
+	padding: 0px 20px;
+	float: left;
 }
 
 /* Footer */
 
 .footer {
-	/*background-image: url('../assets/images/brick.png');*/
 	background-attachment: fixed;
 	margin-top: 0px;
 }
@@ -232,14 +275,11 @@ a:hover {
     -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
     -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
-/*    padding: 10px;*/
-    /*background: white;*/
     transition: .65s;
     transform: scale(1.03);
 }
 
 .project-shadow img {
-/*    width: 100%;*/
     border: 0px solid #8a4419;
     border-style: inset;
 
@@ -277,6 +317,14 @@ a:hover {
 	.project-img-section-img {
  		margin-left:12%;
  	}
+
+ 	.section-contact {
+		margin-left: 12%;
+	}
+
+	.form-contact-info {
+		padding-right: 0;
+	}
 }
 
 @media only screen and (min-width: 901px) {
