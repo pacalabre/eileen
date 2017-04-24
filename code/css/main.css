@@ -118,6 +118,19 @@ textarea {
 	margin-left: 20px;
 }
 
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.navbar-toggle {
+	margin: 15px 30px;
+}
+
+.hamburger-bar {
+	width: 45px;
+	display: inherit;
+}
+
 .nav-ul {
 	margin-right: 40px;
 }
@@ -128,10 +141,6 @@ textarea {
 	padding: 10px;
 	font-size: 25px;
 	font-family: 'IM Fell DW Pica', 'serif';
-}
-
-.navbar-toggle {
-	margin: 25px 30px;
 }
 
 .hero-img {
@@ -268,6 +277,15 @@ a:hover {
 .nav-ul-li:hover, .nav-ul-social-h4:hover  {
 	color: #e74c3c;
 	transition: .5s;
+}
+
+.navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover  {
+    background-color: #ddd;
+    border-radius: 0;
 }
 
 .project-shadow:hover {
