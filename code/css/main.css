@@ -131,6 +131,19 @@ textarea {
 	display: inherit;
 }
 
+/* Toggle these classes to hamburger menu when clicked */
+.hamburger-clicked-top {
+	transform: rotate(45deg) translate(17%, 16px);
+}
+
+.hamburger-clicked-middle {
+	display: none;
+}
+
+.hamburger-clicked-bottom {
+	transform: rotate(-45deg) translate(-18%, -2px);
+}
+
 .nav-ul {
 	margin-right: 40px;
 }
