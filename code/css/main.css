@@ -236,7 +236,7 @@ textarea {
 	/*margin-bottom: 80px;*/
 	/*background-color: #232323;
 	background-image: url('../assets/images/black_paper.png');*/
-	background: white;
+	/*background: white;*/
 }
 
 .contact-h2 {
@@ -360,7 +360,7 @@ a:hover {
 	.section-hero-text {
 		margin: 130px auto 0 auto;
 		position: absolute;
-	    top: 15%;
+	    top: 14%;
 	    right: 7%;
 	    left: 7%;
 	}
