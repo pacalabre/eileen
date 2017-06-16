@@ -72,6 +72,7 @@ input {
 	width: 100%;
 	height: 35px;
 	border: solid black thin;
+	border-radius: 0px;
 }
 
 textarea {
@@ -165,6 +166,7 @@ textarea {
 	height: 100vh;
 	text-align: center;
 	position: relative;
+	background-color: white;
 }
 
 .section-hero-text {
@@ -215,10 +217,21 @@ textarea {
 	font-size: 2rem;
 }
 
-.main-section {
-	background-image: url('../assets/images/brick.png');
-	background-attachment: fixed;
-	padding-bottom: 80px;
+
+.main-section::before {
+  content: ' ';
+  display: block;
+  background-image: url('../assets/images/brick.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10; // This is pretty important.
 }
 
 .main-projects-h2 { 
@@ -300,6 +313,22 @@ textarea {
 	border-bottom: none;
 }
 
+.main-section::before {
+  content: ' ';
+  display: block;
+  background-image: url('../assets/images/brick.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10; // This is pretty important.
+}
+
 /* Hover States */
 
 a:hover {
@@ -336,6 +365,11 @@ a:hover {
 .project-shadow img {
     border: 0px solid #8a4419;
     border-style: inset;
+}
+
+/*Playing Around with mobile fixed images*/
+.hero-img, footer {
+	background: white;
 }
 
 .project-shadow::after {
