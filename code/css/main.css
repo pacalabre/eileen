@@ -192,6 +192,10 @@ textarea {
 	text-align: center;
 }
 
+.main-intro {
+	background-color: white;
+}
+
 .main-intro-h3 {
 	margin-left: auto;
 	margin-right: auto;
@@ -229,7 +233,7 @@ textarea {
 
 .section-contact {
 	margin-top: 80px;
-	margin-bottom: 80px;
+	/*margin-bottom: 80px;*/
 	/*background-color: #232323;
 	background-image: url('../assets/images/black_paper.png');*/
 	background: white;
@@ -402,6 +406,15 @@ a:hover {
 }
 
 @media only screen and (min-width: 1025px) {
+
+	.hero-h1 {
+		font-size: 9rem;
+	}
+
+	.hero-text-p {
+		font-size: 5rem;
+	}
+
 	.main-intro-h3 {
 		font-size: 55px;
 		margin-top: 50px;
