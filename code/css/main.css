@@ -16,6 +16,7 @@ nav {
 	width: 100%;
 	top: 0;
 	background-color: white;
+	height: 83px;
 }
 
 a .nav-ul-li {
@@ -161,27 +162,25 @@ textarea {
 }
 
 .hero-img {
-	/*background-image: url('../assets/images/eileen-stand-in.jpg');*/
 	height: 100vh;
-	/*background-size: cover;*/
 	text-align: center;
 	position: relative;
 }
 
 .section-hero-text {
-	/*float: right;
-	position: absolute;*/
-	/*top: 32%;
-	right: 10%;*/
-	margin: 70% auto 0 auto;
+	margin: 130px auto 0 auto;
+	position: absolute;
+    top: 14%;
+    right: 7%;
+    left: 7%;
 }
 
 .hero-h1 {
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 
 .hero-text-p {
-	font-size: 2.5rem;
+	font-size: 2rem;
     text-align: center;
     margin-top: -35px;
 }
@@ -204,8 +203,16 @@ textarea {
 	color: #e74c3c;
 }
 
+.eileen-img {
+	margin: 0 auto 35px auto;
+    display: block;
+    border-radius: 50%;
+    height: 200px;
+}
+
 .main-p {
 	margin: 0px 7% 60px 7%;
+	font-size: 2rem;
 }
 
 .main-section {
@@ -313,6 +320,10 @@ a:hover {
     border-radius: 0;
 }
 
+.submit-btn:hover {
+	background-color: #BA392C;
+}
+
 .project-shadow:hover {
 	position: relative;
     -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
@@ -325,8 +336,6 @@ a:hover {
 .project-shadow img {
     border: 0px solid #8a4419;
     border-style: inset;
-
-
 }
 
 .project-shadow::after {
@@ -344,6 +353,27 @@ a:hover {
 
 
 /* Media Queries */
+@media only screen and (min-width: 550px) {
+
+	.section-hero-text {
+		margin: 130px auto 0 auto;
+		position: absolute;
+	    top: 14%;
+	    right: 7%;
+	    left: 7%;
+	}
+
+	.hero-h1 {
+		font-size: 6rem;
+	}
+
+	.hero-text-p {
+		font-size: 3.5rem;
+	}
+
+
+
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -357,6 +387,10 @@ a:hover {
 		margin-top: 13px;
 	}
 
+	.hero-img {
+		height: 100vh;
+	}
+
 	.section-hero-text {
 		margin: 130px auto 0 auto;
 		position: absolute;
@@ -364,6 +398,10 @@ a:hover {
 	    right: 7%;
 	    left: 7%;
 	}
+
+/*	.section-hero-text {
+		margin: 70% auto 0 auto;
+	}*/
 
 	.hero-h1 {
   		font-size: 8rem;
@@ -383,6 +421,11 @@ a:hover {
 
 	.form-contact-info {
 		padding-right: 0;
+	}
+
+	.nav-ul-li:hover, .nav-ul-social-h4:hover  {
+		border-bottom: solid;
+  	  padding-bottom: 2px;
 	}
 }
 
@@ -422,7 +465,7 @@ a:hover {
 	}
 
 	.main-p {
-		font-size: 18px;
+		font-size: 2.3rem;
 		margin-bottom: 70px;
 }
 
