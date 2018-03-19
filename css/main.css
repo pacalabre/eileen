@@ -26,17 +26,18 @@ a .nav-ul-li {
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Roboto", sans-serif;
 	display: inline-block;
-	border-bottom: #e74c3c solid 10px;
 	text-align: center;
 	margin: 40px auto 40px auto;
 }
 
 h1 {
 	font-size: 65px;
+	border-bottom: #e74c3c solid 10px;
 }
 
 h2 {
 	font-size: 55px;
+	text-decoration: underline #e74c3c;
 }
 
 h3 {
@@ -102,7 +103,7 @@ textarea {
 /* Nav */
 
 /* Override Bootstrap Nav Styles */
-.navbar-default {
+.navbar-default, .navbar-collapse {
     /*background-color: #fff;
     border-color: #e7e7e7;*/
     /*height: 85px;*/
@@ -172,7 +173,7 @@ textarea {
 .section-hero-text {
 	margin: 130px auto 0 auto;
 	position: absolute;
-    top: 14%;
+    top: 20%;
     right: 7%;
     left: 7%;
 }
@@ -198,12 +199,9 @@ textarea {
 }
 
 .main-intro-h2 {
-	text-decoration: underline #e74c3c;
 	float: right;
-	margin-top: 20%;
     display: block;
     margin-right: 0px;
-    font-size: 75px;
     border-bottom: none;
 }
 
@@ -273,23 +271,14 @@ textarea {
 
 /* Contact Section */
 
-.section-contact {
-	/*margin-bottom: 80px;*/
-	/*background-color: #232323;
-	background-image: url('../assets/images/black_paper.png');*/
-	/*background: white;*/
-}
-
 .form-contact-info{
 	margin-top: 70px;
 }
 
 .contact-h2 {
-	text-decoration: underline #e74c3c;
 	margin-top: 0;
     display: block;
     margin-right: 0px;
-    font-size: 75px;
     border-bottom: none;
 }
 
@@ -439,13 +428,17 @@ a:hover {
 
 @media only screen and (min-width: 768px) {
 
+	h2 {
+		font-size: 75px;
+	}
+
 	.nav-ul-li {
 		text-align: left;
 		display: inline-block;
 	}
 
 	.nav-ul {
-
+		height: 70px;
 		margin-top: 13px;
 	}
 
@@ -477,8 +470,13 @@ a:hover {
  		margin-left:12%;
  	}
 
+ 	.main-intro-h2 {
+ 		margin-top: 20%;
+ 	}
+
  	.section-contact {
  		position: relative;
+ 		height: 380px;
  	}
 
  	.section-contact-form {
@@ -488,8 +486,8 @@ a:hover {
 	.contact-h2 {
 		position: absolute;
 	    text-decoration: underline #e74c3c;
-	    margin-top: 10%;
 	    font-size: 75px;
+	    top: 60%;
 	    border-bottom: none;
 	}
 
@@ -500,6 +498,10 @@ a:hover {
 	.nav-ul-li:hover, .nav-ul-social-h4:hover  {
 		border-bottom: solid;
   	  padding-bottom: 2px;
+	}
+
+	.footer {
+		height: 325px;
 	}
 }
 
