@@ -404,12 +404,12 @@ a:hover {
 
 
 /* Media Queries */
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 560px) {
 
 	.section-hero-text {
 		margin: 130px auto 0 auto;
 		position: absolute;
-	    top: 14%;
+	    top: 20%;
 	    right: 7%;
 	    left: 7%;
 	}
@@ -421,8 +421,6 @@ a:hover {
 	.hero-text-p {
 		font-size: 3.5rem;
 	}
-
-
 
 }
 
@@ -449,14 +447,9 @@ a:hover {
 	.section-hero-text {
 		margin: 130px auto 0 auto;
 		position: absolute;
-	    top: 14%;
 	    right: 7%;
 	    left: 7%;
 	}
-
-/*	.section-hero-text {
-		margin: 70% auto 0 auto;
-	}*/
 
 	.hero-h1 {
   		font-size: 8rem;
@@ -506,6 +499,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 901px) {
+
 	.footer-contact-info-ul {
 		position: absolute;
 	    top: 50%;
@@ -525,10 +519,6 @@ a:hover {
 }
 
 @media only screen and (min-width: 1025px) {
-
-	.section-hero-text {
-    	top: 14%;
-    }
 
 	.hero-h1 {
 		font-size: 9rem;
