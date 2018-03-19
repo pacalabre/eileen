@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC|Roboto:900');
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC|Roboto:900");
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
 /*	margin-left: 15px;
@@ -24,7 +24,7 @@ a .nav-ul-li {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	display: inline-block;
 	border-bottom: #e74c3c solid 10px;
 	text-align: center;
@@ -55,8 +55,8 @@ h6 {
 	font-size: 15px ;
 }
 
-p, label {	
-	font-family: 'IM Fell DW Pica', 'serif';
+p, label, .main-p-ul{	
+	font-family: "IM Fell DW Pica", serif;
 }
 
 label {
@@ -159,7 +159,7 @@ textarea {
 	display: block;
 	padding: 10px;
 	font-size: 25px;
-	font-family: 'IM Fell DW Pica', 'serif';
+	font-family: "IM Fell DW Pica", serif;
 }
 
 .hero-img {
@@ -197,24 +197,46 @@ textarea {
 	background-color: white;
 }
 
+.main-intro-h2 {
+	text-decoration: underline #e74c3c;
+	float: right;
+	margin-top: 20%;
+    display: block;
+    margin-right: 0px;
+    font-size: 75px;
+    border-bottom: none;
+}
+
 .main-intro-h3 {
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	font-family: 'IM Fell DW Pica', 'serif';
+	font-family: "IM Fell DW Pica", serif;
 	color: #e74c3c;
 }
 
 .eileen-img {
-	margin: 0 auto 35px auto;
     display: block;
-    border-radius: 50%;
-    height: 200px;
+    margin: 0 auto 70px auto;
+    display: block;
+    padding: 0;
 }
 
-.main-p {
-	margin: 0px 7% 60px 7%;
+.main-p, .main-p-ul {
 	font-size: 2rem;
+	text-align: left;
+}
+
+.main-p-ul {
+	margin-bottom: 70px;
+}
+
+.main-p-ul-li {
+	list-style: initial;
+}
+
+.main-p-personal-details {
+	margin-top: 30px;
 }
 
 
@@ -252,24 +274,30 @@ textarea {
 /* Contact Section */
 
 .section-contact {
-	margin-top: 80px;
 	/*margin-bottom: 80px;*/
 	/*background-color: #232323;
 	background-image: url('../assets/images/black_paper.png');*/
 	/*background: white;*/
 }
 
+.form-contact-info{
+	margin-top: 70px;
+}
+
 .contact-h2 {
-	/*color: white;*/
-/*	border-bottom: none;*/
-	margin-bottom: 20px;
+	text-decoration: underline #e74c3c;
+	margin-top: 0;
+    display: block;
+    margin-right: 0px;
+    font-size: 75px;
+    border-bottom: none;
 }
 
 .submit-btn {
 	background-color: #e74c3c;
-	margin: 40px auto;
+	margin: 40px auto 70px auto;
 	color: white;
-	font-family: 'IM Fell DW Pica', 'serif';
+	font-family: "IM Fell DW Pica", serif;
 	font-size: 23px;
 	border: none;
 	padding: 0px 20px;
@@ -291,7 +319,7 @@ textarea {
     position: relative;
     margin-left: 20px;
     margin-top: 120px;
-    font-family: 'IM Fell DW Pica', 'serif';
+    font-family: "IM Fell DW Pica", serif;
     font-size: 20px;
 }
 
@@ -450,7 +478,19 @@ a:hover {
  	}
 
  	.section-contact {
-		margin-left: 12%;
+ 		position: relative;
+ 	}
+
+ 	.section-contact-form {
+ 		float: right;
+ 	}
+
+	.contact-h2 {
+		position: absolute;
+	    text-decoration: underline #e74c3c;
+	    margin-top: 10%;
+	    font-size: 75px;
+	    border-bottom: none;
 	}
 
 	.form-contact-info {
@@ -484,6 +524,10 @@ a:hover {
 
 @media only screen and (min-width: 1025px) {
 
+	.section-hero-text {
+    	top: 14%;
+    }
+
 	.hero-h1 {
 		font-size: 9rem;
 	}
@@ -498,9 +542,12 @@ a:hover {
 		margin-bottom: 50px;
 	}
 
-	.main-p {
+	.main-p,.main-p-ul {
 		font-size: 2.3rem;
+	}
+
+	.main-p-ul {
 		margin-bottom: 70px;
-}
+	}
 
 }
