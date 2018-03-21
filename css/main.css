@@ -203,6 +203,7 @@ textarea {
     display: block;
     margin-right: 0px;
     border-bottom: none;
+    padding: 80px 0;
 }
 
 .main-intro-h3 {
@@ -346,7 +347,7 @@ textarea {
   z-index: -10; // This is pretty important.
 }
 
-/* Hover States */
+/* States */
 
 a:hover {
 	text-decoration: none;
@@ -355,6 +356,10 @@ a:hover {
 .nav-ul-li:hover, .nav-ul-social-h4:hover  {
 	color: #e74c3c;
 	transition: .5s;
+}
+
+.nav-ul-social-h4:hover {
+	transform: translateY(-5px);
 }
 
 .navbar-toggle:hover {
@@ -377,6 +382,15 @@ a:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
     transition: .65s;
     transform: scale(1.03);
+}
+
+.project-img-section-img:active {
+	transform: scale(.98);
+	transition: .2s;
+}
+
+.form-contact-info input:hover .form-contact-info label {
+	color: red;
 }
 
 .project-shadow img {
@@ -465,6 +479,7 @@ a:hover {
 
  	.main-intro-h2 {
  		margin-top: 20%;
+ 		padding: 0;
  	}
 
  	.section-contact {
