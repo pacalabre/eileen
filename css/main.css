@@ -268,7 +268,12 @@ textarea {
 }
 
 .project-modal-img {
-	margin-top: 60px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.modal-content {
+	background-color: #f9f9f9;
 }
 
 /* Contact Section */
