@@ -58,6 +58,8 @@ h6 {
 
 p, label, .main-p-ul{	
 	font-family: "IM Fell DW Pica", serif;
+	font-size: 2rem;
+	text-align: left;
 }
 
 label {
@@ -221,11 +223,6 @@ textarea {
     padding: 0;
 }
 
-.main-p, .main-p-ul {
-	font-size: 2rem;
-	text-align: left;
-}
-
 .main-p-ul {
 	margin-bottom: 70px;
 }
@@ -268,6 +265,10 @@ textarea {
  	margin-bottom: 100px;
  	padding-left: 0px;
     padding-right: 0px;
+}
+
+.project-modal-img {
+	margin-top: 60px;
 }
 
 /* Contact Section */
