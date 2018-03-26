@@ -23,6 +23,10 @@ a .nav-ul-li {
 	color: #111111;
 }
 
+a {
+	color: #e74c3c;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Roboto", sans-serif;
 	display: inline-block;
@@ -121,8 +125,8 @@ textarea {
 }
 
 .logo-icon {
-	height: 50px;
-	width: 50px;
+	height: 70px;
+	width: 70px;
 	margin-left: 20px;
 }
 
@@ -351,6 +355,12 @@ textarea {
   right: 0;
   position: fixed;
   z-index: -10; // This is pretty important.
+}
+
+/* Projects Page */
+
+.projects-main-section {
+	margin-top: 80px;
 }
 
 /* States */
