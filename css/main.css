@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size: 65px;
+	font-size: 3.5rem;
 	border-bottom: #e74c3c solid 10px;
 }
 
@@ -444,7 +444,7 @@ a:hover {
 	    left: 7%;
 	}
 
-	.hero-h1 {
+	.hero-h1, h1 {
 		font-size: 6rem;
 	}
 
@@ -481,7 +481,7 @@ a:hover {
 	    left: 7%;
 	}
 
-	.hero-h1 {
+	.hero-h1, h1 {
   		font-size: 8rem;
     }
 
@@ -551,7 +551,7 @@ a:hover {
 
 @media only screen and (min-width: 1025px) {
 
-	.hero-h1 {
+	.hero-h1, h1 {
 		font-size: 9rem;
 	}
 
