@@ -363,6 +363,22 @@ textarea {
 	margin-top: 80px;
 }
 
+.project-page-logo {
+	margin: 75px 0 65px 0;
+}
+
+.intel-logo {
+	width: 200px;
+}
+
+.sapp-logo {
+	width: 350px;
+}
+
+.ms-logo {
+	width: 270px;
+}
+
 /* States */
 
 a:hover {
