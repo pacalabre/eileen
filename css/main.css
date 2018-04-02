@@ -293,7 +293,7 @@ textarea {
     border-bottom: none;
 }
 
-.submit-btn {
+.btn {
 	background-color: #e74c3c;
 	margin: 40px auto 70px auto;
 	color: white;
@@ -302,6 +302,7 @@ textarea {
 	border: none;
 	padding: 0px 20px;
 	float: left;
+	border-radius: 0;
 }
 
 /* Footer */
@@ -357,7 +358,11 @@ textarea {
   z-index: -10; // This is pretty important.
 }
 
-/* Projects Page */
+/* Projects Pages */
+
+.projects-main {
+	text-align: center;
+}
 
 .projects-main-section {
 	margin-top: 80px;
@@ -367,17 +372,30 @@ textarea {
 	margin: 75px 0 65px 0;
 }
 
-.intel-logo {
+.sapp-logo,.ms-logo, .intel-logo {
+	width: 250px;
+}
+
+.modal-logo {
 	width: 200px;
 }
 
-.sapp-logo {
-	width: 350px;
+.back-to-home-btn {
+	float: none;
+	margin-bottom: 140px;
 }
 
-.ms-logo {
-	width: 270px;
+/* Special styles for Intel page, which has one project */
+
+.project-img-section-intel {
+	display: flex;
 }
+
+.intel-proj-img {
+	margin: auto;
+	padding: 0;
+}
+
 
 /* States */
 
@@ -403,8 +421,9 @@ a:hover {
     border-radius: 0;
 }
 
-.submit-btn:hover {
+.btn:hover {
 	background-color: #BA392C;
+	color: white;
 }
 
 .project-shadow:hover {
