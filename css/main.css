@@ -369,7 +369,7 @@ textarea {
 }
 
 .project-page-logo {
-	margin: 75px 0 65px 0;
+	margin: 75px 0 20px 0;
 }
 
 .sapp-logo,.ms-logo, .intel-logo {
@@ -382,7 +382,8 @@ textarea {
 
 .back-to-home-btn {
 	float: none;
-	margin-bottom: 140px;
+    display: block;
+    width: 200px;
 }
 
 /* Special styles for Intel page, which has one project */
